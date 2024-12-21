@@ -1,9 +1,10 @@
-public
-resources
+public/
+resources/
 .hugo_build.lock
 
-go.sum
+# go.sum
 
-node_modules
-package-lock.json
+build/
+node_modules/
+# package-lock.json
 jsconfig.json
