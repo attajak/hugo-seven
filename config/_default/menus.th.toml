@@ -1,0 +1,14 @@
+[[main]]
+  name = "หน้าแรก"
+  pageRef = "/"
+  weight = 10
+
+[[main]]
+  name = "โพสต์"
+  pageRef = "/posts/"
+  weight = 20
+
+[[main]]
+  name = "คลังเก็บ"
+  pageRef = "/archive/"
+  weight = 30

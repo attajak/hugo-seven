@@ -1,0 +1,39 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@waline/client": "github.com/mrhelloboy/seven",
+      "autoprefixer": "github.com/mrhelloboy/seven",
+      "flowbite-typography": "github.com/mrhelloboy/seven",
+      "postcss": "github.com/mrhelloboy/seven",
+      "postcss-cli": "github.com/mrhelloboy/seven",
+      "tailwindcss": "github.com/mrhelloboy/seven"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@waline/client": "^3.1.3",
+    "autoprefixer": "^10.4.19",
+    "flowbite-typography": "^1.0.3",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "hugo-seven",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "hugo --gc --minify --logLevel info",
+    "server": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0 -b http://localhost/ --logLevel info -O",
+    "update": "npm install && hugo mod get -u && hugo mod tidy && hugo mod graph"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/attajak/hugo-seven.git"
+  },
+  "author": "attajak (https://github.com/attajak)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/attajak/hugo-seven/issues"
+  },
+  "homepage": "https://github.com/attajak/hugo-seven#readme"
+}
