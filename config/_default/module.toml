@@ -1,0 +1,13 @@
+[hugoVersion]
+  extended = true
+  min      = "0.124.0"
+
+[[imports]]
+  path = "github.com/mrhelloboy/seven"
+
+[[mounts]]
+  source = "assets"
+  target = "assets"
+[[mounts]]
+  source = "hugo_stats.json"
+  target = "assets/watching/hugo_stats.json"

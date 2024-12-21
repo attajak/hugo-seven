@@ -1,3 +1,5 @@
+omitCategoryOnMenu = false
+categoryName = "หมวดหมู่"
 # disableCodeCopyButton = false
 # disableToTop = false
 # disableHightlight = false

@@ -1,9 +1,0 @@
-languageCode = "th"
-languageName = "Thai"
-title = "Attajak Janrak"
-weight = 1
-
-[params]
-  description = "อัฏฐจักร จันทร์รักษ์"
-  omitCategoryOnMenu = false
-  categoryName = "หมวดหมู่"

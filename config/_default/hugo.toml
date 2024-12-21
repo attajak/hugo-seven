@@ -1,7 +1,11 @@
 baseURL = "/hugo-seven/" # "https://hugoseven.netlify.app"
+languageCode = "th"
+title = "Attajak Janrak"
+description = "ชื่อคิง เกิด ๘ สิงหาฯ เลือดกรุ๊ปเอ"
+theme = []
 
 hasCJKLanguage = false
-defaultContentLanguage = "th"
+# defaultContentLanguage = "th"
 
 [pagination]
   pagerSize = 18
@@ -35,19 +39,6 @@ enableEmoji = true
     endLevel = 3
     startLevel = 2
 
-[module]
-  [[module.imports]]
-    path = "github.com/mrhelloboy/seven"
-  [module.hugoVersion]
-    extended = false
-    min      = "0.124.0"
-  [[module.mounts]]
-    source = "assets"
-    target = "assets"
-  [[module.mounts]]
-    source = "hugo_stats.json"
-    target = "assets/watching/hugo_stats.json"
-
 [build]
   noJSConfigInAssets = false
   writeStats = true
@@ -68,3 +59,10 @@ enableEmoji = true
   [services.disqus]
     shortname = "" # "seven-demo"  
 
+[sitemap]
+  filename = 'sitemap.xml'
+  priority = -1
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
