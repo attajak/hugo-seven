@@ -15,7 +15,7 @@ categoryName = "หมวดหมู่"
   noFavicon = false
 
   # modern SVG favicon to use in place of older style .png and .ico files
-  svgFavicon = "safari-pinned-tab.svg" # "/favicon.svg"
+  svgFavicon = "/safari-pinned-tab.svg" # "/favicon.svg"
 
   # Safari mask icon color
   iconColor = "#ffffff"
@@ -34,8 +34,8 @@ categoryName = "หมวดหมู่"
 [logo]
   # Image logo or Text logo
   # Recommended to set image as logo. (prefer)
-  img = "safari-pinned-tab.svg" # "/images/logo.svg"
-  img_dark = "safari-pinned-tab.svg" # "/images/logo-footer.svg"
+  img = "/safari-pinned-tab.svg" # "/images/logo.svg"
+  img_dark = "/safari-pinned-tab.svg" # "/images/logo-footer.svg"
 
   # Max height not greater than 56 (px). default: 56 (px)
   customLogoHeight = "56"
